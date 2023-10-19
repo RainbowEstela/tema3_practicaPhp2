@@ -1,3 +1,9 @@
+main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .titulo {
     text-align: center;
     color: rgb(135, 27, 236);
@@ -11,4 +17,58 @@
     color: rgb(81, 81, 81);
     text-shadow: 2px 2px rgb(165, 165, 165);
     margin: 0;
+}
+
+.subtituloencurso {
+    text-align: center;
+    color: rgb(122, 0, 0);
+    text-shadow: 2px 2px rgb(165, 165, 165);
+    margin: 0;
+}
+
+.flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+    gap: 5px;
+    position: relative;
+}
+
+.margin0 {
+    margin: 0px;
+}
+
+.p20px {
+    padding: 20px;
+}
+
+.carta {
+    width: 200px;
+}
+
+.winlose {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    position: absolute;
+    top: -40px;
+    left: 40px;
+}
+
+.victoria {
+    color: yellow;
+    text-shadow: 2px 2px rgb(165, 165, 165);
+}
+
+.derrota {
+    color: rgb(157, 0, 0);
+    text-shadow: 2px 2px rgb(165, 165, 165);
 }
